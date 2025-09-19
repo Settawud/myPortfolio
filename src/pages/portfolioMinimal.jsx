@@ -112,7 +112,7 @@ const LINKS = {
   ragNotes: "https://rag-my-note-817etklfz-settawuds-projects.vercel.app",
   generationBarometer: "https://generation-barometer.vercel.app",
   ginRaiDee: "https://personalproject-settawud.vercel.app/",
-  wellBeingLab: "https://group7-project-sprint2-git-develop-settawuds-projects.vercel.app/",
+  wellBeingLab: "https://group7-project-sprint2.vercel.app/",
   baroGoFiber: "#",
   github: "https://github.com/Settawud",
   linkedin: "https://linkedin.com/in/settawud-promyos",
