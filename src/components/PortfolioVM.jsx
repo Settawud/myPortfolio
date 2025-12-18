@@ -49,11 +49,17 @@ function Terminal() {
       '- clear     Clear output',
     ].join('\n'),
     whoami: () => 'Settawud Promyos — Junior Software Developer.',
-    skills: () => 'html css javascript react node express mongodb sql mysql postgresql tailwind git',
+    skills: () => 'html css javascript react node express mongodb sql mysql postgresql tailwind git next.js python ai/rag',
     projects: () => {
       const el = document.getElementById('projects');
       if (el) el.scrollIntoView({ behavior: 'smooth' });
-      return 'Scrolling to projects…';
+      return [
+        'Scrolling to projects…',
+        '1. GinRaiDee (MERN)',
+        '2. Livin\' Lab (React)',
+        '3. RAG Notes (AI/RAG)',
+        '4. NextFlix (Next.js)',
+      ].join('\n');
     },
     about: () => [
       'Junior Software Developer — transitioning from banking.',
@@ -196,22 +202,40 @@ export default function PortfolioVM() {
               <ParallaxCard>
                 <article className="card scroll-fx">
                   <div className="thumb"><img src="/Ginraidee.png" alt="GinRaiDee project" loading="lazy" /></div>
-                  <h3 style={{ marginTop: 16 }}>GinRaiDee — Random Food Suggester</h3>
-                  <p className="muted">Full-stack MERN application with CRUD REST API and responsive UI.</p>
+                  <h3 style={{ marginTop: 16 }}>GinRaiDee — Food Suggester</h3>
+                  <p className="muted">Random food recommendations with filters. MERN stack, responsive UI.</p>
                   <div className="hstack" style={{ marginTop: 12 }}>
-                    <a className="btn magnetic" href="#_">Live</a>
-                    <a className="btn magnetic" href="#_">Repo</a>
+                    <a className="btn magnetic" href="https://ginraidee.onrender.com" target="_blank" rel="noopener noreferrer">Live</a>
                   </div>
                 </article>
               </ParallaxCard>
               <ParallaxCard>
                 <article className="card scroll-fx">
                   <div className="thumb"><img src="/LivinLab.png" alt="LivinLab project" loading="lazy" /></div>
-                  <h3 style={{ marginTop: 16 }}>Livin’Lab — E-commerce Furniture (Team)</h3>
-                  <p className="muted">Agile team project: authentication flows, search/filtering with React Hooks.</p>
+                  <h3 style={{ marginTop: 16 }}>Livin' Lab — Ergonomic Store</h3>
+                  <p className="muted">E‑commerce demo: cart, checkout, admin. Performance‑minded React.</p>
                   <div className="hstack" style={{ marginTop: 12 }}>
-                    <a className="btn magnetic" href="#_">Live</a>
-                    <a className="btn magnetic" href="#_">Repo</a>
+                    <a className="btn magnetic" href="https://group7-project-sprint2.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+                  </div>
+                </article>
+              </ParallaxCard>
+              <ParallaxCard>
+                <article className="card scroll-fx">
+                  <div className="thumb"><img src="/rag_noteApp.png" alt="RAG Notes project" loading="lazy" /></div>
+                  <h3 style={{ marginTop: 16 }}>RAG Notes – AI Notes</h3>
+                  <p className="muted">Retrieval‑augmented notes with embeddings and chat interface.</p>
+                  <div className="hstack" style={{ marginTop: 12 }}>
+                    <a className="btn magnetic" href="https://rag-my-note-817etklfz-settawuds-projects.vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
+                  </div>
+                </article>
+              </ParallaxCard>
+              <ParallaxCard>
+                <article className="card scroll-fx">
+                  <div className="thumb"><img src="/nextflixApp.png" alt="NextFlix project" loading="lazy" /></div>
+                  <h3 style={{ marginTop: 16 }}>NextFlix – Streaming Service</h3>
+                  <p className="muted">Streaming service with movie recommendations.</p>
+                  <div className="hstack" style={{ marginTop: 12 }}>
+                    <a className="btn magnetic" href="https://nextflix-frontend.vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
                   </div>
                 </article>
               </ParallaxCard>

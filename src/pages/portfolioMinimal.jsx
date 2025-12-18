@@ -111,8 +111,9 @@ const STYLES = ["classic", "sidebar", "split", "mono", "terminal", "resume"];
 const LINKS = {
   ragNotes: "https://rag-my-note-817etklfz-settawuds-projects.vercel.app",
   generationBarometer: "https://generation-barometer.vercel.app",
-  ginRaiDee: "https://personalproject-settawud.vercel.app/",
+  ginRaiDee: "https://ginraidee.onrender.com",
   wellBeingLab: "https://group7-project-sprint2.vercel.app/",
+  nextflix: "https://nextflix-frontend.vercel.app",
   baroGoFiber: "#",
   github: "https://github.com/Settawud",
   linkedin: "https://linkedin.com/in/settawud-promyos",
@@ -200,7 +201,14 @@ export default function DevPortfolioMultiStyle() {
         desc: "Retrieval‑augmented notes with embeddings and chat interface.",
         link: LINKS.ragNotes,
         tags: ["RAG", "Embeddings", "AI"],
-        image: "/vite.svg",
+        image: "/rag_noteApp.png",
+      },
+      {
+        title: "NextFlix – Streaming Service",
+        desc: "Streaming service with movie recommendations.",
+        link: LINKS.nextflix,
+        tags: ["Next.js", "Recommendations"],
+        image: "/nextflixApp.png",
       },
     ],
     []
