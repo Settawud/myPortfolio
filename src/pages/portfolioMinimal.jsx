@@ -114,6 +114,7 @@ const LINKS = {
   ginRaiDee: "https://ginraidee.onrender.com",
   wellBeingLab: "https://group7-project-sprint2.vercel.app/",
   nextflix: "https://nextflix-frontend.vercel.app",
+  todoList: "https://todo-list-frontend.vercel.app",
   baroGoFiber: "#",
   github: "https://github.com/Settawud",
   linkedin: "https://linkedin.com/in/settawud-promyos",
@@ -209,6 +210,13 @@ export default function DevPortfolioMultiStyle() {
         link: LINKS.nextflix,
         tags: ["Next.js", "Recommendations"],
         image: "/nextflixApp.png",
+      },
+      {
+        title: "Kanban Board",
+        desc: "Task manager with TypeScript",
+        link: LINKS.todoList,
+        tags: ["HTML", "CSS", "TypeScript", "Task Manager"],
+        image: "/KanbanBoard.png",
       },
     ],
     []
